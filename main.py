@@ -94,6 +94,7 @@ def update_graph_line(col_chosen):
 
     fig.update_layout(xaxis_title='Year', yaxis_title='Mt CO2', title=col_chosen_)
     fig.update_layout(title = f"Mt CO2 emissions per capita in {col_chosen}" )
+    fig.update_yaxes(range=[0, 25])
     return fig
 
 #Pie
